@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            margin:0px;
+        }
+
+        div{                  /* typ selektor */
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+        #ruta2{
+            background-color: blue;
+            position:absolute;
+            top:500px;
+            left:400px;
+        }
+        #ruta3{
+            background-color: rgb(191, 191, 235);
+            position:absolute;
+            top:300px;
+            left:400px;
+        }
+        #red{
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </Style>
+</head>
+<body>
+    
+    <div>ruta1</div>
+    <div id="ruta2">ruta2</div>
+    <div id="ruta3"></div>
+    <span id="red">Absolute positionering</span> handlar om att man utgår i frå<nav></nav> 
+    webbläsarens övre vänstra hörn som origo 0,0 punkt och kan påverka positionering
+    med left, top, right,bottom. Man kan tänka sig det som att man placerar ett genomskinligt papper
+    ovan på det statiska positioneringssystemet.
+</body>
+</html>
