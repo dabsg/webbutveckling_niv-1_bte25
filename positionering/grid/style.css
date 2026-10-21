@@ -1,0 +1,42 @@
+body{
+
+    height: 100vh;
+}
+nav{
+    grid-area: n;
+    background-color: pink;
+
+}
+header{
+    grid-area: h;
+    background-color: blue;
+}
+main{
+    grid-area: m;
+    background-color: green;
+}
+aside{
+    grid-area: a;
+    background-color: aqua;
+    
+}
+footer{
+    grid-area: f;
+    background-color: violet;
+}
+
+
+#container{
+height:100%;
+display: grid;
+grid-template-columns: 10% 70% 20%;
+grid-template-rows: 20% 60% 20% ;
+
+grid-template-areas: 
+
+". h h" 
+"n m a" 
+"n f f"
+;
+
+}
